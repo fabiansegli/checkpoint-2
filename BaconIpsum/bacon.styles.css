@@ -85,20 +85,19 @@ nav {
     text-transform: uppercase;
     color: white;
   }
-  #data-video {
-      position: absolute;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+  p {
+    background: whitesmoke;
+    padding: 1rem;
+    max-width: 50rem;
+    border-radius: 5px;
   }
-  iframe {
-         margin-left: 20px;
-         margin-top: 500px;
-         padding: 60px;
-         display: flex;
-         flex-wrap: wrap;  
-     }
-
+.text {
+  margin: 0 auto 8rem;
+  display: flex;
+}
+.right {
+  justify-content: flex-end;
+}
   footer {
       width: 100%;
       text-align: center;
